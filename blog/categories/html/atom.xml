@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Html | My Octopress Blog]]></title>
   <link href="http://wfx721.github.io/blog/categories/html/atom.xml" rel="self"/>
   <link href="http://wfx721.github.io/"/>
-  <updated>2015-10-09T20:58:00+08:00</updated>
+  <updated>2015-10-09T21:17:02+08:00</updated>
   <id>http://wfx721.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -52,6 +52,40 @@
     printf("hello world");
 }
 </code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Second]]></title>
+    <link href="http://wfx721.github.io/blog/2015/10/09/third/"/>
+    <updated>2015-10-09T19:47:17+08:00</updated>
+    <id>http://wfx721.github.io/blog/2015/10/09/third</id>
+    <content type="html"><![CDATA[<h2>第一天 小总结</h2>
+
+<ul>
+<li>1.Octopress的目录结构
+
+<ul>
+<li>source/_post:markdown类型的博客内容，主要的编辑地点</li>
+<li>public/blog:存储生成的页面文件</li>
+<li>_deploy:上传到github的文件夹</li>
+</ul>
+</li>
+<li>2.Octopress命令
+
+<ul>
+<li>rake preview 打开4000服务器，在服务器打开期间还可以自动生成</li>
+<li>rake generate 生成文件</li>
+<li>rake setup_github_pages 绑定本地Octopress目录</li>
+<li>rake deploy 上传部署到github</li>
+</ul>
+</li>
+</ul>
+
+
+<p>也就是说，在source/_post里用markdown语法编辑博客，生成（可以用服务器自动生成，也可以是generate命令）后用deploy命令上传即可</p>
+
+<p>不足：现在还有个bug，语法高亮出现空白页</p>
 ]]></content>
   </entry>
   
