@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Android | My Octopress Blog]]></title>
   <link href="http://wfx721.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://wfx721.github.io/"/>
-  <updated>2015-10-09T20:45:51+08:00</updated>
+  <updated>2015-10-09T20:54:13+08:00</updated>
   <id>http://wfx721.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -47,6 +47,24 @@
     }
 }
 </code></pre>
+
+<pre><code>int main(){
+    printf("hello world");
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Second]]></title>
+    <link href="http://wfx721.github.io/blog/2015/10/09/second/"/>
+    <updated>2015-10-09T19:47:17+08:00</updated>
+    <id>http://wfx721.github.io/blog/2015/10/09/second</id>
+    <content type="html"><![CDATA[<h1>测试</h1>
+
+<h2>还是一用代码高亮就空白页啊</h2>
+
+<h1>还好现在正常功能不影响了</h1>
 
 <pre><code>int main(){
     printf("hello world");
