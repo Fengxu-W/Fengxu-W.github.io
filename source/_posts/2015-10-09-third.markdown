@@ -1,0 +1,22 @@
+---
+layout: post
+title: "third"
+date: 2015-10-09 19:47:17 +0800
+comments: true
+categories: [Android,Html]
+---
+
+## 第一天 小总结
+- 1.Octopress的目录结构
+	- source/_post:markdown类型的博客内容，主要的编辑地点
+	- public/blog:存储生成的页面文件
+	- _deploy:上传到github的文件夹
+- 2.Octopress命令
+	- rake preview 打开4000服务器，在服务器打开期间还可以自动生成
+	- rake generate 生成文件
+	- rake setup_github_pages 绑定本地Octopress目录
+	- rake deploy 上传部署到github
+
+也就是说，在source/_post里用markdown语法编辑博客，生成（可以用服务器自动生成，也可以是generate命令）后用deploy命令上传即可
+
+不足：现在还有个bug，语法高亮出现空白页

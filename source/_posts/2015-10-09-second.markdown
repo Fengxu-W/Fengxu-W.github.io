@@ -1,0 +1,17 @@
+---
+layout: post
+title: "second"
+date: 2015-10-09 19:47:17 +0800
+comments: true
+categories: [Android,Html]
+---
+
+#测试
+## 还是一用代码高亮就空白页啊
+#还好现在正常功能不影响了
+	
+```
+int main(){
+	printf("hello world");
+}
+```
