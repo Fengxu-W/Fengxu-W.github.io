@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Html | My Octopress Blog]]></title>
   <link href="http://wangfengxu.top/blog/categories/html/atom.xml" rel="self"/>
   <link href="http://wangfengxu.top/"/>
-  <updated>2015-10-10T13:11:23+08:00</updated>
+  <updated>2015-10-10T13:26:19+08:00</updated>
   <id>http://wangfengxu.top/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -36,6 +36,14 @@
 <li>rake generate 生成文件</li>
 <li>rake setup_github_pages 绑定本地Octopress目录</li>
 <li>rake deploy 上传部署到github</li>
+</ul>
+</li>
+<li>3.托管源码到github
+
+<ul>
+<li>git add .</li>
+<li>git commit -m &ldquo;message&rdquo;</li>
+<li>git push origin source</li>
 </ul>
 </li>
 </ul>
