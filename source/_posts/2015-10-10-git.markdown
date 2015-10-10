@@ -1,0 +1,16 @@
+---
+layout: post
+title: "git入门"
+date: 2015-10-10 11:36:33 +0800
+comments: true
+categories: 
+---
+- 本地工作流程
+	- git init 创建git仓库（本地工作区）
+	- git add . 将本地文件添加到暂存区
+	- git status 查看暂存区状态
+	- git commit -m "message" 提交到历史提交
+- 其他命令
+	- git clone url 下载（克隆）仓库
+	- git pull 将服务器上的数据拉下来
+	- git push 将本地文件推到服务器上

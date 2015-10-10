@@ -1,0 +1,20 @@
+---
+layout: post
+title: "域名绑定"
+date: 2015-10-10 10:26:25 +0800
+comments: true
+categories: 
+---
+- S1 github绑定域名
+	- 写一个CNAME文件，内部为url
+- S2 解析域名
+	- 在域名管理后台，将域名解析至github的IP
+
+使用github仓库作为服务器，由于没有PHP引擎等，故无法作为动态网页服务器，可是做静态页面加个JS什么的应该是没问题的
+
+今天：
+	
+- 1.测试一下静态页行不行
+- 2.学习markdown语言
+- 3.收拾收拾这个Blog
+- 4.github也得看一看啊，不然浪费了这么好的版本控制
