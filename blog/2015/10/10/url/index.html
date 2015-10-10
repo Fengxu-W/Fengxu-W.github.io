@@ -5,13 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Third - My Octopress Blog</title>
+  <title>域名绑定 - My Octopress Blog</title>
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="第一天 小总结 1.Octopress的目录结构 source/_post:markdown类型的博客内容，主要的编辑地点
-public/blog:存储生成的页面文件
-_deploy:上传到github的文件夹 2.Octopress命令 rake preview 打开4000服务器， &hellip;">
+  <meta name="description" content="S1 github绑定域名 写一个CNAME文件，内部为url S2 解析域名 在域名管理后台，将域名解析至github的IP 使用github仓库作为服务器，由于没有PHP引擎等，故无法作为动态网页服务器，可是做静态页面加个JS什么的应该是没问题的 今天： 1.测试一下静态页行不行
+2. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +19,7 @@ _deploy:上传到github的文件夹 2.Octopress命令 rake preview 打开4000服
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://wfx721.github.io/blog/2015/10/09/third/">
+  <link rel="canonical" href="http://wfx721.github.io/blog/2015/10/10/url/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
@@ -70,7 +69,7 @@ _deploy:上传到github的文件夹 2.Octopress命令 rake preview 打开4000服
   
   <header>
     
-      <h1 class="entry-title">Third</h1>
+      <h1 class="entry-title">域名绑定</h1>
     
     
       <p class="meta">
@@ -79,39 +78,40 @@ _deploy:上传到github的文件夹 2.Octopress命令 rake preview 打开4000服
 
 
 
-<time class='entry-date' datetime='2015-10-09T19:47:17+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>9</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>7:47 pm</span></time>
+<time class='entry-date' datetime='2015-10-10T10:26:25+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>10</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>10:26 am</span></time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h2>第一天 小总结</h2>
+<div class="entry-content"><ul>
+<li>S1 github绑定域名
 
 <ul>
-<li>1.Octopress的目录结构
-
-<ul>
-<li>source/_post:markdown类型的博客内容，主要的编辑地点</li>
-<li>public/blog:存储生成的页面文件</li>
-<li>_deploy:上传到github的文件夹</li>
+<li>写一个CNAME文件，内部为url</li>
 </ul>
 </li>
-<li>2.Octopress命令
+<li>S2 解析域名
 
 <ul>
-<li>rake preview 打开4000服务器，在服务器打开期间还可以自动生成</li>
-<li>rake generate 生成文件</li>
-<li>rake setup_github_pages 绑定本地Octopress目录</li>
-<li>rake deploy 上传部署到github</li>
+<li>在域名管理后台，将域名解析至github的IP</li>
 </ul>
 </li>
 </ul>
 
 
-<p>也就是说，在source/_post里用markdown语法编辑博客，生成（可以用服务器自动生成，也可以是generate命令）后用deploy命令上传即可</p>
+<p>使用github仓库作为服务器，由于没有PHP引擎等，故无法作为动态网页服务器，可是做静态页面加个JS什么的应该是没问题的</p>
 
-<p>不足：现在还有个bug，语法高亮出现空白页</p>
+<p>今天：</p>
+
+<ul>
+<li>1.测试一下静态页行不行</li>
+<li>2.学习markdown语言</li>
+<li>3.收拾收拾这个Blog</li>
+<li>4.github也得看一看啊，不然浪费了这么好的版本控制</li>
+</ul>
+
 </div>
 
 
@@ -127,21 +127,15 @@ _deploy:上传到github的文件夹 2.Octopress命令 rake preview 打开4000服
 
 
 
-<time class='entry-date' datetime='2015-10-09T19:47:17+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>9</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>7:47 pm</span></time>
+<time class='entry-date' datetime='2015-10-10T10:26:25+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>10</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>10:26 am</span></time>
       
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/android/'>android</a>, <a class='category' href='/blog/categories/html/'>html</a>
-  
-</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://wfx721.github.io/blog/2015/10/09/third/" data-via="" data-counturl="http://wfx721.github.io/blog/2015/10/09/third/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://wfx721.github.io/blog/2015/10/10/url/" data-via="" data-counturl="http://wfx721.github.io/blog/2015/10/10/url/" >Tweet</a>
   
   
   
@@ -150,10 +144,8 @@ _deploy:上传到github的文件夹 2.Octopress命令 rake preview 打开4000服
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015/10/09/second/" title="Previous Post: second">&laquo; second</a>
+        <a class="basic-alignment left" href="/blog/2015/10/09/test/" title="Previous Post: test">&laquo; test</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015/10/09/title/" title="Next Post: 王烽旭">王烽旭 &raquo;</a>
       
     </p>
   </footer>
@@ -168,15 +160,11 @@ _deploy:上传到github的文件夹 2.Octopress命令 rake preview 打开4000服
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2015/10/09/title/">王烽旭</a>
+        <a href="/blog/2015/10/10/url/">域名绑定</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2015/10/09/third/">Third</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/10/09/second/">Second</a>
+        <a href="/blog/2015/10/09/test/">Test</a>
       </li>
     
   </ul>

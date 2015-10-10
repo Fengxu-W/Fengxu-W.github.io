@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Android | My Octopress Blog]]></title>
   <link href="http://wfx721.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://wfx721.github.io/"/>
-  <updated>2015-10-09T22:29:38+08:00</updated>
+  <updated>2015-10-10T10:26:26+08:00</updated>
   <id>http://wfx721.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -14,52 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[王烽旭]]></title>
-    <link href="http://wfx721.github.io/blog/2015/10/09/title/"/>
+    <title type="html"><![CDATA[Test]]></title>
+    <link href="http://wfx721.github.io/blog/2015/10/09/test/"/>
     <updated>2015-10-09T19:47:17+08:00</updated>
-    <id>http://wfx721.github.io/blog/2015/10/09/title</id>
-    <content type="html"><![CDATA[<h1>你好WFX</h1>
-
-<h2>这是你的Octopress Blog</h2>
-
-<p><strong>加粗</strong></p>
-
-<ul>
-<li>Android
-
-<ul>
-<li>http</li>
-<li>https</li>
-</ul>
-</li>
-<li>PHP</li>
-<li>HTML</li>
-</ul>
-
-
-<blockquote><p>引用</p></blockquote>
-
-<p><a href="http://jikexueyuan.com">链接</a></p>
-
-<pre><code>public class HelloWorld{
-    public static void main(string args[]){
-        System.out.println("Hello World");
-    }
-}
-</code></pre>
-
-<pre><code>int main(){
-    printf("hello world");
-}
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Third]]></title>
-    <link href="http://wfx721.github.io/blog/2015/10/09/third/"/>
-    <updated>2015-10-09T19:47:17+08:00</updated>
-    <id>http://wfx721.github.io/blog/2015/10/09/third</id>
+    <id>http://wfx721.github.io/blog/2015/10/09/test</id>
     <content type="html"><![CDATA[<h2>第一天 小总结</h2>
 
 <ul>
@@ -86,24 +44,6 @@
 <p>也就是说，在source/_post里用markdown语法编辑博客，生成（可以用服务器自动生成，也可以是generate命令）后用deploy命令上传即可</p>
 
 <p>不足：现在还有个bug，语法高亮出现空白页</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Second]]></title>
-    <link href="http://wfx721.github.io/blog/2015/10/09/second/"/>
-    <updated>2015-10-09T19:47:17+08:00</updated>
-    <id>http://wfx721.github.io/blog/2015/10/09/second</id>
-    <content type="html"><![CDATA[<h1>测试</h1>
-
-<h2>还是一用代码高亮就空白页啊</h2>
-
-<h1>还好现在正常功能不影响了</h1>
-
-<pre><code>int main(){
-    printf("hello world");
-}
-</code></pre>
 ]]></content>
   </entry>
   
