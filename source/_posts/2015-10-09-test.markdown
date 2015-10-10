@@ -16,6 +16,10 @@ categories: [Android,Html]
 	- rake generate 生成文件
 	- rake setup_github_pages 绑定本地Octopress目录
 	- rake deploy 上传部署到github
+- 3.托管源码到github
+	- git add .
+	- git commit -m "message"
+	- git push origin source
 
 也就是说，在source/_post里用markdown语法编辑博客，生成（可以用服务器自动生成，也可以是generate命令）后用deploy命令上传即可
 
