@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Blog Like a Hacker]]></title>
   <link href="http://wangfengxu.top/atom.xml" rel="self"/>
   <link href="http://wangfengxu.top/"/>
-  <updated>2015-10-10T13:26:19+08:00</updated>
+  <updated>2015-10-11T19:10:45+08:00</updated>
   <id>http://wangfengxu.top/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[VinceWang]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[顶级域名]]></title>
+    <link href="http://wangfengxu.top/blog/2015/10/11/second/"/>
+    <updated>2015-10-11T18:52:32+08:00</updated>
+    <id>http://wangfengxu.top/blog/2015/10/11/second</id>
+    <content type="html"><![CDATA[<p>昨天晚上帮周杰把静态页部署在gh-pages上，讨论了一些东西，设想我们申请的是顶级域名，那么下面将有无数个二级域名，这样以后每个项目都可以做一个二级域名，经过试验，成功部署了一个静态页在github上且有一个二级域名，操作过程如下</p>
+
+<p>域名绑定：添加CNAME文件
+域名解析：添加A记录，二级域名写在前缀上</p>
+
+<p>另外，在用手机登录github时候发现github网页的响应式布局做的很赞，这种才能充分发挥响应式布局的意义————在各个平台都能满足用户舒适的交互，再看看自己做的demo虽然使用的bootstrap自带了一些响应式布局，但那种简单的按比例缩放并不能满足需求，想再学习一下响应式布局，让这个demo不光能在PC上显示良好，在手机上也能有好一点的表现。</p>
+
+<p>昨天看到豆瓣FM，想做一个网页音乐播放器。罗世玉提了一个点子：一个能够识别电脑正在播放的音乐的网页，这个音乐更多的是指正在播放的电影等的背景音乐，类似微信摇一摇听歌的功能，但是由于各种因素可能并不适宜外放使用微信，故有此需求。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git入门]]></title>
