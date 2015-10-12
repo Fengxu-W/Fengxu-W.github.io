@@ -9,8 +9,7 @@
   <meta name="author" content="VinceWang">
 
   
-  <meta name="description" content="昨天晚上帮周杰把静态页部署在gh-pages上，讨论了一些东西，设想我们申请的是顶级域名，那么下面将有无数个二级域名，这样以后每个项目都可以做一个二级域名，经过试验，成功部署了一个静态页在github上且有一个二级域名，操作过程如下 域名绑定：添加CNAME文件
-域名解析：添加A记录， &hellip;">
+  <meta name="description" content="昨天学习响应式布局，发现并不是bootstarp的响应式布局简单，而是自己忘记加了标签，加上标签后，又用CSS3的media query写了一个简单的响应式布局。看了一部分Bootstarp的源码，发现bootstrap的响应式布局也是通过media query实现的，可能还有用JS实现的， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -66,6 +65,39 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/10/12/boom/">Boom</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-10-12T14:05:23+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>12</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>2:05 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>昨天学习响应式布局，发现并不是bootstarp的响应式布局简单，而是自己忘记加了<meta>标签，加上标签后，又用CSS3的media query写了一个简单的响应式布局。看了一部分Bootstarp的源码，发现bootstrap的响应式布局也是通过media query实现的，可能还有用JS实现的，因为昨天学习知道，实现响应式布局的方法主要就是用media query改变CSS或者使用JS，改变CSS已经懂了点，但是像github那种直接改变布局，像生成了一个新网页一样，还是不会，我想可能是用的JS，今天要再深入学习一下。</p>
+
+<p>把textbook1.0加上响应式布局后，好看了点，但是功能上只做了添加，还不能删改，所以还是用不了，得尽快填上功能</p>
+
+<p>今天潇凯被人短信轰炸了，不停收到各种注册验证码，听着觉得这个点子不错，回来就在研究怎么做这样的软件，上网一查没想到已经有这个软件了，但不能阻止我自己做一个的想法，原理上很简单，使用发送验证码的接口，循环调用就可以了，发的短信数量取决于每秒执行发送命令的次数，接口的多少，另外，若短信内容可修改，是不是就能用这个免费发短信了呢，同理还有电话轰炸机，免费打电话，都可以研究研究</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -279,6 +311,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/10/12/boom/">Boom</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/10/11/second/">顶级域名</a>
